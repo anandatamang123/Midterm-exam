@@ -69,3 +69,10 @@ footer {
         margin: 10px 0;
     }
 }
+h2,p{
+    color: teal;
+}
+img{
+    align-content: center;
+    padding-left: 12%;
+}
