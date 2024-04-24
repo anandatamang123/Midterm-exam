@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- let's get started -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,12 +22,14 @@
 
     <main>
         <section id="home" class="hero">
+            <!-- Hero Image or Video and Introduction Text -->
             <h2>Welcome to the Future of Water Purification</h2>
             <p>Water purification technology is crucial for providing safe drinking water worldwide. This project explores recent innovations that have transformed water purification methods and their global impact.</p>
         </section>
         <img src="https://www.niehs.nih.gov/sites/default/files/health/assets/images/safewater_og.jpg" alt="image of water">
 
         <article id="innovations">
+            <!-- Detailed sections for each technology -->
             <h2>Key Innovations in Water Purification</h2>
             <aside>
                 <blockquote>"Thousands have lived without love, not one without water." - W.H. Auden</blockquote>
@@ -46,13 +49,40 @@
 
         <article id="implementation">
             <h2>Global Implementation</h2>
+             <!-- Case studies with real-world applications -->
             <p>Examine case studies where these technologies have been successfully implemented in developing countries.</p>
+            <img src="https://www.questionpro.com/blog/wp-content/uploads/2018/04/Research-Methods_without-logo.jpg" alt="research img">
         </article>
+        <!-- About the importance and history of water purification -->
     </main>
     <article id="Conclusion">
         <h2>Conclusion</h2>
         <p>The ongoing development of water purification technologies is vital for improving global health and ensuring sustainable water resources.</p>
     </article>
+    <article id="contact">
+        <h2>Contact Us & Make Reservations</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="date">Reservation Date:</label>
+            <input type="date" id="date" name="date" required>
+    
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+    
+            <button type="submit">Submit</button>
+        </form>
+        <img src="https://cdn-icons-png.freepik.com/256/3095/3095583.png" alt="contact img">
+    </article>
+    
+    
 
     <footer>
         <p>Contact Us: <a href="mailto:info@purifywater.com">info@purifywater.com</a></p>
