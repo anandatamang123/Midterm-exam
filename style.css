@@ -1,0 +1,70 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #0077CC;
+    color: white;
+    padding: 10px 5%;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('water-background.jpg');
+    background-size: cover;
+    color: white;
+    padding: 40px 5%;
+    text-align: center;
+}
+
+article {
+    background: white;
+    margin: 20px 5%;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+aside {
+    background: #EFEFEF;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 5%;
+    background: #333;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
